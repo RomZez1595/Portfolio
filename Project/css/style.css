@@ -45,8 +45,9 @@ body{
 }
 
 .wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 a {
@@ -161,7 +162,7 @@ a {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #000000;}
 
 
 .header__link{
@@ -210,7 +211,7 @@ a {
 }
 
 .intro-list {
-	width: 1110px;
+	max-width: 1200px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -338,12 +339,18 @@ a {
 }
 
 .projects{
+    position: relative;
     padding-bottom: 100px;
 }
 
 .projects-cards{
     padding-top: 30px;
     display: flex;
+    justify-content: center;
+     /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    padding-top: 30px; */
 }
 
 .project-card-left{
